@@ -2,13 +2,14 @@
 
 A TypeScript implementation of an MCP server that fetches web content using Puppeteer and converts it to markdown.
 
+Useful for breaking your LLM out of infinite "search loops"- you can just tell it to read a doc directly after initial context as a tool!
+
 ## Features
 
 - Uses Puppeteer to fetch and render web pages, including JavaScript-heavy sites
 - Extracts text content from web pages
 - Converts HTML content to Markdown format
 - Provides both stdio and SSE transport for MCP communication
-- Exposes a simple API for integration with agentic systems
 
 ## Installation
 
