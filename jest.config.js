@@ -7,6 +7,7 @@ export default {
       'ts-jest',
       {
         useESM: true,
+        isolatedModules: true
       },
     ],
   },
@@ -18,4 +19,6 @@ export default {
     '!src/**/*.test.ts',
     '!src/**/*.d.ts',
   ],
+  setupFilesAfterEnv: ['./tests/setup.ts'],
+  testTimeout: 15000,
 }; 
