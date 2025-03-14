@@ -24,7 +24,7 @@ export const server = new McpServer({
 
 // Add a tool to fetch a URL and convert to markdown
 server.tool(
-  "fetch-url",
+  "fetch_url",
   "Fetch a URL using Puppeteer and return the content as markdown",
   {
     url: z.string().url().describe("The URL to fetch"),

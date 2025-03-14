@@ -82,7 +82,7 @@ console.log(result.markdown);
 
 ### MCP Tools
 
-#### `fetch-url`
+#### `fetch_url`
 
 Fetches a URL using Puppeteer and returns the content as markdown.
 
